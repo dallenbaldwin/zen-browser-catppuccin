@@ -44,7 +44,7 @@
 > If you are using the Flatpak installation (as of 1.17.15b), the profile directory will be incorrect. It doesn't consider flatpak's filesystem, but the profile name which appears after `.zen` will be correct. It will be in `~/.var/app/app.zen_browser.zen/.zen/`.
 
 3. More likely than not, Zen already created a `chrome` directory for the profile. If not, create one.
-4. Copy the `userChrome.css`, `userContent.css`, and `zen-logo.svg` files of your preferred theme from the [`themes/`](themes/) directory in this repository to the profile's `chrome` directory.
+4. From your preferred theme, in [`themes`](themes/), copy `userChrome.css`, `userContent.css`, and `zen-logo.svg` to the profile's `chrome` directory.
 
 > [!NOTE]
 > If you're using the [🌻 Latte](themes/Latte/) theme, set your browser to light mode. For [🪴 Frappé](themes/Frappe/), [🌺 Macchiato](themes/Macchiato/), or [🌿 Mocha](themes/Mocha/), enable dark mode to apply the theme correctly.
