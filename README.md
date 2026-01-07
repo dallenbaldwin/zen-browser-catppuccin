@@ -40,8 +40,8 @@
 1. Enable `toolkit.legacyUserProfileCustomizations.stylesheets` in [about:config](about:config).
 2. Get the Profile Directory from the Application Basics section in [about:support](about:support).
 
-> [!NOTE
-> If you are using the Flatpak installation (as of 1.17.15b), the profile directory will be incorrect. It doesn't consider flatpak's filesystem, but the profile name which appears after `.zen` will be correct. It will be in `~/.var/app/app.zen_browser.zen/.zen/`.
+> [!NOTE]
+> If you are using the Flatpak installation (as of 1.17.15b), the profile directory will be incorrect. It doesn't consider flatpak's filesystem, but the profile name which appears after `.zen` will be correct. It will likely be in `~/.var/app/app.zen_browser.zen/.zen/`.
 
 3. More likely than not, Zen already created a `chrome` directory for the profile. If not, create one.
 4. From your preferred theme, in [`themes`](themes/), copy `userChrome.css`, `userContent.css`, and `zen-logo.svg` to the profile's `chrome` directory.
@@ -60,6 +60,10 @@
 - **Q:** Can I automatically switch flavors between light and dark mode?
   
   **A:** Yes! You can concatenate the `userChrome.css` and `userContent.css` files for 🌻 Latte (light mode) along with one of the dark mode themes like 🪴 Frappé, 🌺 Macchiato, or 🌿 Mocha. The browser will automatically switch between these themes when toggling between light and dark mode.
+
+- **Q:** I'm using the Flatpak, why isn't my theme being applied?
+
+  **A:** Zen might not have access to the directory where your theme is being stored. You can use an application like Flatseal to inspect and manage which directories Zen is allowed to access.
 
 ## 💝 Thanks to
 
