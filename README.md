@@ -35,7 +35,6 @@
 </details>
 
 ## Usage
-<!-- todo: verify steps on macos -->
 
 1. Enable `toolkit.legacyUserProfileCustomizations.stylesheets` in [about:config](about:config).
 2. Get the Profile Directory from the Application Basics section in [about:support](about:support).
