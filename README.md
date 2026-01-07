@@ -40,7 +40,7 @@
 1. Enable `toolkit.legacyUserProfileCustomizations.stylesheets` in [about:config](about:config).
 2. Get the Profile Directory from the Application Basics section in [about:support](about:support).
 
-> [!NOTE
+> [!NOTE]
 > If you are using the Flatpak installation (as of 1.17.15b), the profile directory will be incorrect. It doesn't consider flatpak's filesystem, but the profile name which appears after `.zen` will be correct. It will be in `~/.var/app/app.zen_browser.zen/.zen/`.
 
 3. More likely than not, Zen already created a `chrome` directory for the profile. If not, create one.
