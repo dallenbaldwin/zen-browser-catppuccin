@@ -60,10 +60,6 @@
   
   **A:** Yes! You can concatenate the `userChrome.css` and `userContent.css` files for 🌻 Latte (light mode) along with one of the dark mode themes like 🪴 Frappé, 🌺 Macchiato, or 🌿 Mocha. The browser will automatically switch between these themes when toggling between light and dark mode.
 
-- **Q:** I'm using the Flatpak, why isn't my theme being applied?
-
-  **A:** Zen might not have access to the directory where your theme is being stored. You can use an application like Flatseal to inspect and manage which directories Zen is allowed to access.
-
 ## 💝 Thanks to
 
 - [IAmJafeth](https://github.com/IAmJafeth)
