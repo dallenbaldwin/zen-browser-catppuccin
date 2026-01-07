@@ -41,7 +41,7 @@
 2. Get the Profile Directory from the Application Basics section in [about:support](about:support).
 
 > [!NOTE]
-> If you are using the Flatpak installation (as of 1.17.15b), the profile directory will be incorrect. It doesn't consider flatpak's filesystem, but the profile name which appears after `.zen` will be correct. It will be in `~/.var/app/app.zen_browser.zen/.zen/`.
+> If you are using the Flatpak installation (as of 1.17.15b), the profile directory will be incorrect. It doesn't consider flatpak's filesystem, but the profile name which appears after `.zen` will be correct. It will likely be in `~/.var/app/app.zen_browser.zen/.zen/`.
 
 3. More likely than not, Zen already created a `chrome` directory for the profile. If not, create one.
 4. From your preferred theme, in [`themes`](themes/), copy `userChrome.css`, `userContent.css`, and `zen-logo.svg` to the profile's `chrome` directory.
